@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Supercars Olivos: una selección curada de autos nobles, deportivos y superdeportivos." />
+
+    <title>Supercars Olivos</title>
+
+    <!-- Ícono de la web -->
+    <link rel="icon" type="image/png" href="./assets/icono.png" />
+
+    <!-- Importación de fuentes Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- Script propio (botón "volver arriba" y año del footer) -->
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <!-- ============ HEADER / NAVEGACIÓN ============ -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#inicio" class="header__brand">
+                <img src="./assets/icono.png" alt="Logo Supercars Olivos" class="header__logo" />
+                <span class="header__name">Supercars <strong>Olivos</strong></span>
+            </a>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#inicio" class="nav__link">Inicio</a></li>
+                    <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+                    <li><a href="#premiums" class="nav__link">Premiums</a></li>
+                    <li><a href="#nobles" class="nav__link">Nobles</a></li>
+                    <li><a href="#contacto" class="btn btn--primary btn--small">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ============ HERO ============ -->
+        <section class="hero" id="inicio">
+            <div class="container hero__content">
+                <p class="eyebrow">Concesionaria · Olivos, Buenos Aires</p>
+                <h1 class="hero__title">Manejá el auto que <span class="text-accent">siempre soñaste</span></h1>
+                <p class="hero__text">
+                    Una selección curada de superdeportivos, premiums y autos nobles para el día a día.
+                    Cada vehículo, revisado y listo para entregar.
+                </p>
+                <div class="hero__actions">
+                    <a href="#premiums" class="btn btn--primary">Ver superdeportivos</a>
+                    <a href="#nobles" class="btn btn--outline">Ver deportivos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ NOSOTROS / BENEFICIOS ============ -->
+        <section class="section" id="nosotros">
+            <div class="container">
+                <header class="section__header">
+                    <p class="eyebrow">Por qué elegirnos</p>
+                    <h2 class="section__title">Pasión por los autos, compromiso con vos</h2>
+                    <p class="section__text">
+                        Desde Olivos acompañamos a cada cliente en la elección de su próximo vehículo,
+                        con asesoramiento personalizado de principio a fin.
+                    </p>
+                </header>
+
+                <div class="features">
+                    <article class="feature">
+                        <span class="feature__number">01</span>
+                        <h3 class="feature__title">Flota seleccionada</h3>
+                        <p class="feature__text">Cada unidad pasa por una inspección técnica completa antes de llegar a nuestro salón.</p>
+                    </article>
+                    <article class="feature">
+                        <span class="feature__number">02</span>
+                        <h3 class="feature__title">Financiación flexible</h3>
+                        <p class="feature__text">Planes a medida y toma de tu usado para que el cambio sea simple.</p>
+                    </article>
+                    <article class="feature">
+                        <span class="feature__number">03</span>
+                        <h3 class="feature__title">Accesorios originales</h3>
+                        <p class="feature__text">Catálogo de accesorios para personalizar y cuidar tu vehículo.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CATÁLOGO: PREMIUMS Y SUPERDEPORTIVOS ============ -->
+        <section class="section section--alt" id="premiums">
+            <div class="container">
+                <header class="section__header">
+                    <p class="eyebrow">Catálogo</p>
+                    <h2 class="section__title">Premiums y superdeportivos</h2>
+                    <p class="section__text">Potencia, diseño y exclusividad en cada detalle.</p>
+                </header>
+
+                <div class="grid">
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/premiums-y-superdeportivos/aston-martin-db11.png" alt="Aston Martin DB11" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Gran turismo</span>
+                            <h3 class="card__title">Aston Martin DB11</h3>
+                            <p class="card__text">Elegancia británica con motor V8 biturbo.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/premiums-y-superdeportivos/audi-r8.png" alt="Audi R8" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Superdeportivo</span>
+                            <h3 class="card__title">Audi R8</h3>
+                            <p class="card__text">Motor central V10 y tracción integral quattro.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/premiums-y-superdeportivos/chevrolet-corvette.png" alt="Chevrolet Corvette" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Superdeportivo</span>
+                            <h3 class="card__title">Chevrolet Corvette</h3>
+                            <p class="card__text">El ícono americano, ahora con motor central V8.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/premiums-y-superdeportivos/ford-mustang.png" alt="Ford Mustang" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Muscle car</span>
+                            <h3 class="card__title">Ford Mustang</h3>
+                            <p class="card__text">Leyenda deportiva con el clásico V8 Coyote.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/premiums-y-superdeportivos/mercedes-benz-amg.png" alt="Mercedes-Benz AMG" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Premium</span>
+                            <h3 class="card__title">Mercedes-Benz AMG</h3>
+                            <p class="card__text">Lujo alemán con el sello de alto rendimiento AMG.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/premiums-y-superdeportivos/porsche-911.png" alt="Porsche 911" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Deportivo premium</span>
+                            <h3 class="card__title">Porsche 911</h3>
+                            <p class="card__text">El deportivo de referencia, con motor bóxer trasero.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CATÁLOGO: NOBLES Y DEPORTIVOS ============ -->
+        <section class="section" id="nobles">
+            <div class="container">
+                <header class="section__header">
+                    <p class="eyebrow">Catálogo</p>
+                    <h2 class="section__title">Nobles y deportivos</h2>
+                    <p class="section__text">Confiables, cómodos y con espíritu deportivo para todos los días.</p>
+                </header>
+
+                <div class="grid">
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/nobles-y-deportivos/audi-a3.png" alt="Audi A3" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Hatchback premium</span>
+                            <h3 class="card__title">Audi A3</h3>
+                            <p class="card__text">Compacto, refinado y lleno de tecnología.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/nobles-y-deportivos/chevrolet-cruze.png" alt="Chevrolet Cruze" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Sedán</span>
+                            <h3 class="card__title">Chevrolet Cruze</h3>
+                            <p class="card__text">Espacio, confort y motor turbo eficiente.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/nobles-y-deportivos/fiat-kronnos.png" alt="Fiat Cronos" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Sedán</span>
+                            <h3 class="card__title">Fiat Cronos</h3>
+                            <p class="card__text">Práctico y económico, ideal para la ciudad.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/nobles-y-deportivos/nissan-sentra.png" alt="Nissan Sentra" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Sedán</span>
+                            <h3 class="card__title">Nissan Sentra</h3>
+                            <p class="card__text">Diseño moderno con andar suave y silencioso.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/nobles-y-deportivos/toyota-corolla.png" alt="Toyota Corolla" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Sedán</span>
+                            <h3 class="card__title">Toyota Corolla</h3>
+                            <p class="card__text">La confiabilidad de siempre, también en versión híbrida.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__media">
+                            <img src="./assets/nobles-y-deportivos/volkswagen-golf.png" alt="Volkswagen Golf" class="card__img" loading="lazy" />
+                        </div>
+                        <div class="card__body">
+                            <span class="tag">Hatchback</span>
+                            <h3 class="card__title">Volkswagen Golf</h3>
+                            <p class="card__text">El hatchback de referencia, ágil y versátil.</p>
+                            <a href="#contacto" class="btn btn--primary btn--block">Consultar</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CONTACTO / CTA ============ -->
+        <section class="contact" id="contacto">
+            <div class="container contact__inner">
+                <div class="contact__info">
+                    <p class="eyebrow">Contacto</p>
+                    <h2 class="section__title">¿Listo para tu próximo auto?</h2>
+                    <p class="section__text">Visitanos en nuestro salón o escribinos y te asesoramos sin compromiso.</p>
+                </div>
+
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        <span class="contact__label">Dirección</span>
+                        <span>Av. del Libertador, Olivos, Buenos Aires</span>
+                    </li>
+                    <li class="contact__item">
+                        <span class="contact__label">Horarios</span>
+                        <span>Lunes a sábado · 9 a 19 h</span>
+                    </li>
+                    <li class="contact__item">
+                        <span class="contact__label">Email</span>
+                        <a href="mailto:ventas@supercarsolivos.com" class="contact__link">ventas@supercarsolivos.com</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <a href="#inicio" class="header__brand">
+                <img src="./assets/icono.png" alt="Logo Supercars Olivos" class="header__logo" />
+                <span class="header__name">Supercars <strong>Olivos</strong></span>
+            </a>
+
+            <ul class="footer__links">
+                <li><a href="#premiums" class="nav__link">Premiums</a></li>
+                <li><a href="#nobles" class="nav__link">Nobles</a></li>
+                <li><a href="#contacto" class="nav__link">Contacto</a></li>
+            </ul>
+
+            <p class="footer__copy">&copy; <span id="year">2026</span> Supercars Olivos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón "volver arriba" (se muestra al hacer scroll, ver index.js) -->
+    <a href="#inicio" class="back-to-top" id="back-to-top" aria-label="Volver arriba">&uarr;</a>
+</body>
+</html>

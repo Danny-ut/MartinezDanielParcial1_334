@@ -1,5 +1,4 @@
 /* =========================================================
-   SUPERCARS OLIVOS - Hoja de estilos
    Índice:
    1. Variables
    2. Reset y base
@@ -11,9 +10,6 @@
    8. Catálogo (grid y cards)
    9. Contacto
    10. Footer y botón "volver arriba"
-
-   Responsive: no se usan @media. Las filas usan flex-wrap,
-   así los elementos bajan solos a otra línea cuando no entran.
    ========================================================= */
 
 /* ---------- 1. Variables ---------- */
